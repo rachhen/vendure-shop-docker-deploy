@@ -1,0 +1,6 @@
+apps:
+  - script: "./dist/index.js"
+    name: "vendure-server"
+
+  - script: "./dist/index-worker.js"
+    name: "vendure-worker"
